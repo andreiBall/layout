@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+/* Slider: --начало-- */
+.ico-service-info {
+   width: 37px;
+   height: 21px;
+   background-position: -5px -4px;
+}
+
+.ico-service-auto {
+   width: 37px;
+   height: 21px;
+   background-position: -51px -4px;
+}
+
+.ico-service-customs {
+   width: 37px;
+   height: 21px;
+   background-position: -99px -4px;
+}
+
+.ico-service-oversize {
+   width: 37px;
+   height: 21px;
+   background-position: -145px -4px;
+}
+
+.ico-service-sea {
+   width: 37px;
+   height: 21px;
+   background-position: -190px -4px;
+}
+
+.ico-service-transit {
+   width:37px;
+   height:21px;
+   background-position: -235px -4px;
+}
+
+.ico-service-multi {
+   width:37px;
+   height:21px;
+   background-position: -5px -4px;
+}
+
+.ico-service-insurance {
+   width:37px;
+   height:21px;
+   background-position: -51px -32px;
+}
+
+.ico-service-avia {
+   width:37px;
+   height:21px;
+   background-position: -100px -32px;
+}
+
+.ico-service-working {
+   width:37px;
+   height:21px;
+   background-position: -145px -32px;
+}
+
+.ico-service-umbrela {
+    width:37px;
+    height:21px;
+    background-position: -189px -32px;
+}
+
+.main-tabs-rt {
+    width: 32%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.main-tabs-content {
+    width: 10%;
+    color: #fff;
+}
+.main-tabs-li{
+    text-align: left;
+    background-color: rgba(127, 172, 197, 0.5);
+    width: 235px;
+    height: 27px;
+	list-style: none; 
+	margin: 5px 0 5px 0;
+}
+
+.main-tabs-li i {
+    float: left;
+    margin: 3px 3px 0 3px;
+    border: 1px solid #9BCADE;
+}
+
+.main-tabs-rt li a {
+   color: #abd9ed;
+   text-decoration: none;
+}
+.main-tabs-rt  a {
+    font-size: 13px;
+    font-weight: bold;
+}
+.main-tabs-title{
+   margin: 5px 10px 5px 50px;
+   display: block;
+}
+.main-tabs-pic .ico { 
+   vertical-align: middle;
+}
+/* Slider: --конец-- */

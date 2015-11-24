@@ -1,32 +1,307 @@
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-    <script src="js/script.js" type="text/javascript"></script>
+    <title>Название страницы</title>
+    <meta name="Description" content="">
+    <meta name="Keywords" content="">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="Author" content="Компания Алерио">
+    <meta name="Reply-to" content="info@alerio.ru">
+    <meta name="Address" content="Санкт-Петербург, пр.Стачек, д.47, лит.А, офис 313. Тел.: 680 07 64">
+    <link href="Styles/template_styles.css" rel="stylesheet" type="text/css">
+    <!-- Подключение CSS компонентов : начало -->
+    <link rel="stylesheet" href="Styles/styles.css">
+    <!-- Подключение CSS компонентов : конец -->
+    <!-- Подключение JS-библиотек : начало -->
+    <script src="Styles/Scripts/jquery-1.10.2.min.js"></script>
+    <!-- Подключение JS-библиотек : конец -->
+    <!-- Подключение JS-плагинов и их CSS : начало -->
+    <script src="Styles/Scripts/jquery.placeholder.1.3.min.js"></script>
+    <script src="Styles/Scripts/jquery.tabslet.min.js"></script>
+    <script src="Styles/Scripts/utils.js"></script>
+    <script src="Styles/Scripts/init.js"></script>
+    <!-- Подключение JS-плагинов и их CSS : начало -->
+    <!-- Подключение JS-скриптов: конец -->
+    <!-- Подключение JS-скриптов: конец -->
+    <link rel="icon" href="Styles/Images/favicon.ico">
 </head>
 <body>
-<!--Модальное окно реализованно за счет скрытия блоков свойством display (none block), переключение свойств pointer-events и target-->
-    <a href="#openModal">Модальное окно</a><!--ссылка на модальное окно-->
-   	    <div id="openModal" class="contentModal">
-	        <div>
-				<p>Закажите</p>
-				<i>консультацию</i>
-				<img>
-				<p>Ответ в течении 15 минут</p>
-				<p>____</p>
-				<form>
-					<p>Введите <i>Ваше имя</i> (необяз.):</p>
-					<input type="text" placeholder="Имя" name="fio">
-					<p>Введите <i>телефон:</i></p>
-					<input type="text" placeholder="Телефон" name="phone">
-					<p>Введите <i>e-mail</i> (необяз.):</p>
-					<input type="text" placeholder="E-mail" name="e-mail">
-					<p>Ваш <i>вопрос</i>(необяз.):</p>
-					<textarea placeholder="Введите коментарий" rows="5" ></textarea>
-					<a href="#" class="ButtonLink"><span>Заказать консультацию</span></a>
-				</form>
-			    <a href="#close" title="Закрыть" class="close">X</a>
-			</div>
-		</div>
+    <div class="PseudoBody">
+        <!-- Wrapper : начало -->
+        <div id="Wrapper">
+            <!-- Шапка : начало --> 
+            <div id="Header">
+                <!-- header-ico: начало -->
+                <div id="header-ico">
+                   <a href=""><i class="ico ico-home"></i></a>
+                   <a href=""><i class="ico ico-map"></i></a>
+                   <a href=""><i class="ico ico-search"></i></a>
+                 </div>
+                <!-- header-ico: конец -->
+                <!-- header-menu : начало -->
+                <div id="header-menu">
+                    <ul class="header-menu">
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Поставщикам</a></li>
+                        <li><a href="">Статус груза</a></li>
+                        <li><a href="">Оставить заявку</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                 <!--header-menu : конец -->
+                 <!-- LanguagesSwitch: начало -->
+                 <div id="LanguagesSwitch">
+                    <a href=""><i class="ico ico-flag-ru"></i></a>
+                    <a href=""><i class="ico ico-flag-uk"></i></a>
+                    <a href=""><i class="ico ico-flag-sp"></i></a>
+                </div>
+				<!-- LanguagesSwitch: конец -->
+            </div>
+			<!-- GeneralNav: начало -->
+            <div id="GeneralNav">
+                  <a href="" id="Logo" title="на главную"></a>
+                   <div id="GeneralNav-contact">
+                      <p id="GeneralNav-telefon">(812) 332-41-04</p>
+                      <p id="GeneralNav-mail">info@mainlogist.com</p>
+                   </div>
+                   <div id="GeneralNav-consultation">
+                      <h5>Онлайн консультация</h5>
+                      <i class="ico ico-scype"></i>
+                      <p id="GeneralNav-scype">mainstream.logistics.llc</p>
+                      <i class="ico ico-icq"></i>
+                      <p id="GeneralNav-icq">646090990</p>
+                    </div>
+            </div>
+			<!-- GeneralNav: конец -->
+            <!-- Шапка : конец --> 
+            <!-- Основная часть страницы : начало -->
+            <div id="Content">
+                <!--TopBar-course : начало -->
+                <div class="TopBar-course">
+                <ul>
+                   <li class="TopBar-mnemo">&euro;</li>
+                   <li>41,5998</li>
+                   <li class="TopBar-mnemo">&darr;</li>
+                   <li id="TopBar-text">0,3396</li>
+                   <li class="TopBar-mnemo">$</li>
+                   <li>30,1033</li>
+                   <li class="TopBar-mnemo">&darr;</li>
+                   <li>0,398111</li>
+                  </ul>
+                </div>    
+                <!--TopBar-course : конец -->
+                <!-- TopBar : начало -->
+                <div id="TopBar">
+                    <!-- TopBar-menu : начало -->
+                    <ul class="TopBar-menu">
+                        <li><a href="">Санкт-Петербург</a></li>
+                        <li><a href="">Усть-Луга</a></li>
+                        <li><a href="">Валенсия</a></li>
+                        <li><a href="">Талин</a></li>
+                        <li><a href="">Высоцк</a></li>
+                        <li><a href="">Хамина</a></li>
+                        <li><a href="">Котка</a></li>
+                        <li><a href="">Мурманск</a></li>
+                    </ul>
+                    <!--TopBar-menu : конец -->
+                </div>
+                <!-- TopBar: конец -->
+                <!-- Slider: начало -->
+                  <div class="Slider">
+                      <ul class="main-tabs-rt">
+                         <li class="main-tabs-li">
+                            <a href="" data-tab="#tab-info">
+                               <i class="ico ico-service-info"></i>
+                               <span class="main-tabs-title">Таможенное оформление</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-auto">
+                               <i class="ico ico-service-auto"></i>
+                               <span class="main-tabs-title">Морские перевозки</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-customs" >
+                               <i class="ico ico-service-customs"></i>
+                               <span class="main-tabs-title">Авиаперевозки</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-oversize">
+                               <i class="ico ico-service-oversize"></i>
+                               <span class="main-tabs-title">Негабаритные грузы</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-sea" >
+                               <i class="ico ico-service-sea"></i>
+                               <span class="main-tabs-title">Железнодорожные перевозки</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-transit" >
+                               <i class="ico ico-service-transit"></i>
+                               <span class="main-tabs-title">Мультимодальные транзит</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-multi">
+                               <i class="ico ico-service-multi"></i>
+                               <span class="main-tabs-title">Внутрипортовое экспедирование</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-insurance" >
+                               <i class="ico ico-service-insurance"></i>
+                               <span class="main-tabs-title">Страхование грузов</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-avia">
+                               <i class="ico ico-service-avia"></i>
+                               <span class="main-tabs-title">Сборные грузы</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-insurance">
+                               <i class="ico ico-service-working"></i>
+                               <span class="main-tabs-title">Внутритаможенный конроль</span>
+                            </a>
+                        </li>
+                        <li class="main-tabs-li" >
+                            <a href="" data-tab="#tab-multi">
+                               <i class="ico ico-service-umbrela"></i>
+                               <span class="main-tabs-title">Негабаритные грузы</span>
+                            </a>
+                        </li>
+                       </ul>
+                       <div id="tab-info" class="main-tabs-content" >
+                          <img src="Styles/images/info.jpg" alt="информация">
+                       </div>
+                       <div id="tab-auto" class="main-tabs-content">
+                          <img src="Styles/images/auto.jpg" alt="">
+                       </div>
+                       <div id="tab-customs" class="main-tabs-content">
+                          <img src="Styles/images/customs.jpg" alt="">
+                       </div>
+                       <div id="tab-oversize" class="main-tabs-content">
+                          <img src="Styles/images/oversize.jpg" alt="">
+                       </div>
+                       <div id="tab-sea" class="main-tabs-content">
+                          <img src="Styles/images/sea.jpg" alt="">
+                       </div>
+                       <div id="tab-transit" class="main-tabs-content">
+                          <img src="Styles/images/transit.jpg" alt="">
+                       </div>
+                       <div id="tab-multi" class="main-tabs-content">
+                          <img src="Styles/images/multi.jpg" alt="">
+                       </div>
+                       <div id="tab-insurance" class="main-tabs-content">
+                          <img src="Styles/images/insurance.jpg" alt="">
+                       </div>
+                       <div id="tab-avia" class="main-tabs-content">
+                          <img src="Styles/images/avia.jpg" alt="">
+                       </div>
+                  </div>
+                <!-- Slider: конец -->
+                <!-- ArticleList : начало -->  
+                <div id="ArticleList">
+                    <h1><span>Инкотермс-2010</span></h1>
+                    <p>Международные торговые термины представляют собой стандартные условия договора купли-продажи, 
+                    они определены заранее в международно признанном документе и вступают в силу </p>
+                    <a href="">Подробнее</a>
+                    <h1><span>Типы контейнеров</span></h1>
+                    <p>Независимо от назнаваения все контейнеры стандартизированы по массе брутто, габаритам, присоединительным 
+                    размерам, а также по конструкции присоединительных устройств к подвижному составу железнодорожного и
+                    автомобильного транпорта и к захватным органам погрузочно-разгрузочных машин.</p>
+                    <a href="">Подробнее</a>
+                    <h1><span>Классы опасности грузов</span></h1>
+                    <p>Для каждого вида транспорта характерны свои нормы и правила организации перевозрк, оформления документации, 
+                    маркировки, требований к подвижному составу и ответственности персонала.</p>
+                    <a href="">Подробнее</a>
+                    <h1><span>Типы и сорта палет</span></h1>
+                    <p>В международных грузоперевозках обычно используются сертифицированные европейские или финские палеты, 
+                    соответствующие фитосанитарным и иным требованиям, о чем свдительствуют клейма на каждой палете</p>
+                    <a href="">Подробнее</a>
+                    <h1><span>Типы и сорта палет</span></h1>
+                    <p>В международных грузоперевозках обычно используются сертифицированные европейские или финские палеты, 
+                    соответствующие фитосанитарным и иным требованиям, о чем свдительствуют клейма на каждой палете</p>
+                    <a href="">Подробнее</a>
+                    <h1><span>Типы и сорта палет</span></h1>
+                    <p>В международных грузоперевозках обычно используются сертифицированные европейские или финские палеты, 
+                    соответствующие фитосанитарным и иным требованиям, о чем свдительствуют клейма на каждой палете</p>
+                    <a href="">Подробнее</a>
+                    <h1><span>Типы и сорта палет</span></h1>
+                    <p>В международных грузоперевозках обычно используются сертифицированные европейские или финские палеты, 
+                    соответствующие фитосанитарным и иным требованиям, о чем свдительствуют клейма на каждой палете</p>
+                    <a href="">Подробнее</a>
+                </div>
+                <!-- ArticleList : конец -->
+                <!-- LeftSidebar : начало -->
+                <div id="LeftSidebar">
+                    <h1>О компании</h1>
+                    <p>ООО «Мэйнстрим Лоджистикс» - транспортно-экспедиторская компания.Основное поле нашей деятельности -
+                    перевозка контейнерных грузов и внутрипортовое экспедирование. Наличие договоров с основными морскими 
+                    линиями и терминалами, большой опыт работы в данной области и самый внимательный подход к каждому 
+                    клиенту позволяют нам оказывать действительно качественные услуги. Нам нравится то, что мы делаем, 
+                    и мы будем рады быть Вам полезными в развитии Вашего бизнеса.</p>
+                    <h2>Ценности</h2>
+                    <p>Эффективность - мы стремимся достигать поставленных целей, быть уникальными в каждом проекте,
+                    каждой инициативе. </p>
+                    <p>Качество - высокое качество наших услуг основано на строгой технологической дисциплине и 
+                    современных стандартах управления.</p>
+                    <p>Профессионализм - мы постоянно ведем поиск талантов, повышаем профессиональный уровень.</p>
+                    <h2>Услуги</h2>
+                    <ul id="Services">
+                        <li>таможенное оформление грузов</li>
+                        <li>экспедиторское обслуживание грузов в портах Усть-Луга, Санкт-Петербург, Хамина,  Таллин, Высоцк</li>
+                        <li>организация международных мультимодальных перевозок генеральных и контейнерных грузов</li>
+                        <li>доставка "от двери до двери"</li>
+                        <li>железнодорожные перевозки по России</li>
+                        <li>организация морских и речных перевозок</li>
+                        <li>перевозка контейнеров</li>
+                        <li>организация авиаперевозок из Европы</li>
+                    </ul>
+                </div>
+                <!-- LeftSidebar : конец -->
+                <!-- NewsList : начало --> 
+                <div id="NewsList" >
+                    <h1>Новости</h1>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                    <p class="DataNewsList">07.11.2011</p>
+                    <p class="TextNewsList">В Петербурге пройдет церемония вручения высшей театральной премии</p>
+                </div>
+                <!-- NewsList : конец -->
+                
+                <!-- BottomBar : начало -->
+                <div id="BottomBar">
+                </div>
+                <!-- BottomBar : конец -->
+            </div>
+            <!-- Основная часть страницы : конец -->
+        </div>
+        <!-- Wrapper : конец -->
+        <!-- Footer : начало -->
+        <div id="Footer">
+           <p class="FooterContact">190020, Санкт-Петербург, ул. Бумажная, д.9, офис 510</p>
+           <p>тел.: +7 (812) 332 41 04</p>
+           <p>e-mail: info@mainlogist.com </p>
+           <p class="FooterContact">&copy; 2011 ООО "Мэйстрим Лоджистикс"</p>
+        </div>
+        <!-- Footer : конец -->
+    </div>
 </body>
 </html>
